@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr"><head><title>Social Farming</title><meta charset="utf-8"/><link rel="preload" href="../../index-47d9ba67.css" as="style"/><link rel="preload" href="../../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="CPDV — Ezra Pham"/><meta property="og:title" content="Social Farming"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Social Farming"/><meta name="twitter:description" content="Canh tác hợp tác (xã hội) — thăm người chơi khác, cổ vũ, theo dõi, giúp đỡ, dự án, và xử lý rác."/><meta property="og:description" content="Canh tác hợp tác (xã hội) — thăm người chơi khác, cổ vũ, theo dõi, giúp đỡ, dự án, và xử lý rác."/><meta property="og:image:alt" content="Canh tác hợp tác (xã hội) — thăm người chơi khác, cổ vũ, theo dõi, giúp đỡ, dự án, và xử lý rác."/><meta property="twitter:domain" content="ezraphm.github.io/palace"/><meta property="og:url" content="https://ezraphm.github.io/palace/sunflower-land/mechanics/social-farming"/><meta property="twitter:url" content="https://ezraphm.github.io/palace/sunflower-land/mechanics/social-farming"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Canh tác hợp tác (xã hội) — thăm người chơi khác, cổ vũ, theo dõi, giúp đỡ, dự án, và xử lý rác."/><meta name="generator" content="Quartz"/><link href="../../index-47d9ba67.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://ezraphm.github.io/palace/sunflower-land/mechanics/social-farming-og-image.webp"/><meta property="og:image:url" content="https://ezraphm.github.io/palace/sunflower-land/mechanics/social-farming-og-image.webp"/><meta name="twitter:image" content="https://ezraphm.github.io/palace/sunflower-land/mechanics/social-farming-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="sunflower-land/mechanics/social-farming" data-basepath="/palace"><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">CPDV — Ezra Pham</a></h2><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Tìm" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Tìm</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Tìm kiếm thông tin" placeholder="Tìm kiếm thông tin"/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Chế độ tối"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Chế độ tối"><title>Chế độ tối</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Chế độ sáng"><title>Chế độ sáng</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Chế độ đọc"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Chế độ đọc"><title>Chế độ đọc</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-77" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-77" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../sunflower-land/">sunflower-land</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../sunflower-land/mechanics/">mechanics</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Social Farming</a></div></nav><h1 class="article-title">Social Farming</h1><details class="note-properties metadata-container" open data-collapsed="false"><summary class="note-properties-header"><span class="note-properties-title">Properties</span><span class="note-properties-count">2</span></summary><table class="note-properties-table"><tbody><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">description</td><td class="note-properties-value metadata-property-value"><span class="note-properties-text">Canh tác hợp tác (xã hội) — thăm người chơi khác, cổ vũ, theo dõi, giúp đỡ, dự án, và xử lý rác.</span></td></tr><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">tags</td><td class="note-properties-value metadata-property-value"><span class="note-properties-tags"><a href="../../tags/game-mechanics" class="internal internal-link tag-link">game-mechanics</a><span class="note-properties-separator">, </span><a href="../../tags/sunflower-land" class="internal internal-link tag-link">sunflower-land</a><span class="note-properties-separator">, </span><a href="../../tags/social" class="internal internal-link tag-link">social</a><span class="note-properties-separator">, </span><a href="../../tags/co-op" class="internal internal-link tag-link">co-op</a></span></td></tr></tbody></table></details><p show-comma="true" class="content-meta"><time datetime="2026-06-01T13:08:07.111Z">01 thg 6, 2026</time><span>8 phút đọc</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h2 id="canh-tác-hợp-tác-xã-hội">Canh tác Hợp tác (Xã hội)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#canh-tác-hợp-tác-xã-hội" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Một bổ sung mới cho game, canh tác hợp tác cho phép bạn thăm những người chơi khác và giúp đỡ họ theo những cách chưa từng có trước đây. Hãy đến Plaza để tìm bạn bè của bạn, hoặc chỉ cần chọn một Bumpkin ngẫu nhiên và trao cho họ sự tăng cường xứng đáng!</p>
+<p>Nhấp hoặc chạm vào biểu tượng trên cùng ở góc dưới bên trái màn hình để truy cập các tính năng xã hội. Tính năng này vẫn còn rất mới và có thể thay đổi bất cứ lúc nào.</p>
+<h2 id="menu-xã-hội-social-menu">Menu Xã hội (Social Menu)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#menu-xã-hội-social-menu" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Có thể truy cập ở mọi nơi, trên farm của bạn hoặc ra ngoài thế giới. Hiển thị một luồng hoạt động gần đây: sự giúp đỡ và cổ vũ đã nhận, các cột mốc người theo dõi, và thông báo công khai về các phát hiện có giá trị hoặc các giao dịch mua marketplace đắt tiền.</p>
+<p>Bạn có thể lọc luồng theo: <strong>Helped</strong> (người chơi thăm farm bạn), <strong>Chat</strong> (tin nhắn trực tiếp từ người theo dõi), <strong>Cheered</strong> (người chơi cổ vũ farm bạn), và <strong>Follows</strong> (người chơi mới theo dõi bạn).</p>
+<h2 id="theo-dõi-following">Theo dõi (Following)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#theo-dõi-following" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Sử dụng “Search players” trong menu xã hội để tìm một người chơi khác theo tên người dùng. Chạm vào bất kỳ ai ở Plaza để truy cập menu người chơi của họ. Theo dõi họ để thêm một mục vào tab Following.</p>
+<p>Người theo dõi được sắp xếp theo tổng số điểm xã hội. Bạn có thể theo dõi ai đó mà họ không cần theo dõi lại, nhưng hầu hết người chơi đều thân thiện và sẽ đáp lại.</p>
+<p>Nếu Plaza vắng vẻ, hãy thử đổi Server trong <strong>Game Options → Plaza Settings → Change server</strong>. Dung lượng mỗi server được hiển thị — hãy tìm server đông người nhất (thường là <strong>Bumpkin Bazaar</strong>).</p>
+<h2 id="hồ-sơ-profile">Hồ sơ (Profile)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#hồ-sơ-profile" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Chạm vào một người chơi (ở Plaza hoặc menu xã hội) sẽ hiển thị hồ sơ bao gồm: cấp độ, farm ID, điểm xã hội, Faction, ngày bắt đầu, và hơn thế nữa. Sử dụng nút <strong>Follow</strong> và biểu tượng <strong>Rocket</strong> (hiên phía trên ngày bắt đầu) để Cheer. Bạn cũng có thể xem người theo dõi của người chơi đó và những người họ theo dõi.</p>
+<p>Nếu bạn theo dõi người chơi, bạn có thể nhắn tin cho họ qua panel bên phải. Hãy lịch sự, nếu không bạn có thể bị báo cáo!</p>
+<h2 id="giúp-đỡ-helping-out">Giúp đỡ (Helping Out)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#giúp-đỡ-helping-out" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="cổ-vũ-cheering">Cổ vũ (Cheering)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cổ-vũ-cheering" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Chạm vào biểu tượng Rocket để Cheer một người chơi khác. Cấp <strong>+3 Social Points</strong>, và nếu là VIP, <strong>+3 Love Charms</strong>.</p>
+<ul>
+<li>Bạn có thể Cheer mỗi người chơi <strong>một lần mỗi ngày</strong> (reset game).</li>
+<li>Bạn nhận được <strong>3 Cheers miễn phí</strong> mỗi ngày. Không giới hạn số Cheers bạn có thể tặng trong ngày.</li>
+<li>Khi cần thêm, đến gặp <strong>Goblet</strong> tại <strong>Goblin’s Retreat</strong> để đổi tài nguyên lấy Cheers.</li>
+</ul>
+<h3 id="giúp-đỡ-thực-tế-helping">Giúp đỡ thực tế (Helping)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#giúp-đỡ-thực-tế-helping" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Chạm vào biểu tượng kính lúp bên cạnh đảo của họ để thăm. Ở dưới màn hình sẽ hiển thị tên và số hành động còn lại. Góc trên bên phải có cuộn giấy liệt kê mọi nhiệm vụ, bao gồm số lượng từng loại rác cần tìm.</p>
+<p><strong>Rác trên farm:</strong></p>
+<ul>
+<li>Mỗi farm sinh ra <strong>5 món rác</strong> mỗi ngày, vị trí ngẫu nhiên trên mọi ô trống.</li>
+<li>Tìm <strong>Weeds</strong> (cỏ dại) và <strong>Dung</strong> (phân) — hãy tìm ánh sáng lấp lánh và chạm vào.</li>
+<li>Một số người chơi sắp xếp đồ vật trên farm thành khối chặt để rác xuất hiện ở vị trí cố định, dễ tìm hơn.</li>
+<li>Rác có thể chồng lên nhau hoặc thậm chí xuất hiện trên đầu Scarecrow — hãy để mắt kỹ!</li>
+</ul>
+<p><strong>Mẹo tìm rác:</strong> Nếu không thấy Weed cuối cùng, lấy Farm ID từ hồ sơ bạn bè, rồi vào <code>https://sfl.world/map/</code> nhập Farm ID. Vị trí rác giống nhau cho tất cả người giúp đỡ trong ngày đó.</p>
+<h3 id="dự-án-projects">Dự án (Projects)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dự-án-projects" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Có ba loại dự án xã hội có thể đặt trên farm của bạn. Chạm vào dự án trên farm người khác để giúp tiến độ — không tốn gì cả.</p>
+<h3 id="thú-cưng-pets">Thú cưng (Pets)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#thú-cưng-pets" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Nếu bạn bè bạn may mắn ấp trứng pet, chăm sóc chúng cũng là nhiệm vụ khi thăm. Chỉ cần click vào để tặng XP.</p>
+<h3 id="hoàn-thành-một-lượt-giúp-đỡ">Hoàn thành một lượt giúp đỡ<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#hoàn-thành-một-lượt-giúp-đỡ" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Một lượt giúp đỡ đầy đủ bao gồm: nhặt đủ 5 rác, hỗ trợ mọi dự án đang hoạt động, và chăm sóc pet (nếu có). Khi hoàn tất, một cửa sổ hiện ra thông báo Social Points và Love Charms mà chủ farm nhận được. <strong>Giúp đỡ mang lại điểm cho bạn bè, không phải cho bạn.</strong></p>
+<ul>
+<li>Mặc định, bạn có thể giúp <strong>5 người chơi/ngày</strong>. Sau đó, có thể tiếp tục bằng cách trả phí <strong>1 Iron + 3 Wool + 3 Feathers</strong> mỗi farm. Giới hạn boosted này hết hạn khi reset game.</li>
+</ul>
+<h2 id="xây-dự-án-riêng-building-your-own-projects">Xây Dự án Riêng (Building your own Projects)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#xây-dự-án-riêng-building-your-own-projects" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Người chơi thăm farm luôn có thể dọn rác, nhưng bạn có thể cho họ thêm việc để làm và hưởng lợi lớn. Đến <strong>Workbench</strong> để bắt đầu. Không giới hạn số người giúp trong một ngày — hãy kết bạn nhiều nhất có thể!</p>
+<h3 id="cooking-pots">Cooking Pots<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cooking-pots" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Yêu cầu Gems và vùng trống <strong>2x2</strong>. Chỉ được đặt một Pot mỗi loại. Khi hoàn thành, bạn nhận <strong>2 Food Box</strong> cùng bậc, và mỗi người giúp sẽ được vào mini-raffle — một người may mắn nhận thêm 1 Box.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>STT</th><th>Tên</th><th>Loại</th><th>Level yêu cầu</th><th>Chi phí (Gems)</th><th>Lượt giúp cần</th><th>Phần thưởng</th></tr></thead><tbody><tr><td>1</td><td>Basic Cooking Pot</td><td>Tiêu hao, dùng 1 lần</td><td>20</td><td>10</td><td>10</td><td>2 Bronze Food Box</td></tr><tr><td>2</td><td>Expert Cooking Pot</td><td>Tiêu hao, dùng 1 lần</td><td>40</td><td>50</td><td>50</td><td>2 Silver Food Box</td></tr><tr><td>3</td><td>Advanced Cooking Pot</td><td>Tiêu hao, dùng 1 lần</td><td>60</td><td>500</td><td>100</td><td>2 Gold Food Box</td></tr></tbody></table></div>
+<h3 id="giant-fruit-trái-cây-khổng-lồ">Giant Fruit (Trái cây Khổng lồ)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#giant-fruit-trái-cây-khổng-lồ" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Big Orange, Big Apple, Big Banana — tốn Coins, cần vùng trống <strong>2x2</strong>. Chỉ được trồng một loại mỗi lần. Sau khi hoàn thành:</p>
+<ul>
+<li>Bán lại tại <strong>Farmer’s Market</strong> lấy nhiều Coins hơn.</li>
+<li>Dùng cho <strong>Mega Bounty Board</strong> — đổi lấy Chapter Ticket giá trị cao.</li>
+<li>Một số NPC yêu cầu chúng trong giao hàng (deliveries).</li>
+<li>Có thể đặt trên farm để trưng bày.</li>
+<li>Khi hoàn thành, có thể trả Coins để bắt đầu lại ngay lập tức.</li>
+</ul>
+<p><strong>Dùng Obsidian tăng trưởng tức thì:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>STT</th><th>Tên</th><th>Số lượt giúp tối đa</th><th>Chi phí Obsidian</th></tr></thead><tbody><tr><td>1</td><td>Big Orange</td><td>0/25</td><td>0.5</td></tr><tr><td>2</td><td>Big Apple</td><td>0/50</td><td>1</td></tr><tr><td>3</td><td>Big Banana</td><td>0/200</td><td>4</td></tr></tbody></table></div>
+<p>Chi phí Obsidian tỷ lệ thuận với số lượt giúp còn thiếu — hãy đợi càng lâu càng tốt và kêu gọi bạn bè!</p>
+<p><strong>Obsidian cho Flowers:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>STT</th><th>Thời gian</th><th>Chi phí Obsidian</th></tr></thead><tbody><tr><td>1</td><td>1 ngày (24h)</td><td>0.1</td></tr><tr><td>2</td><td>2 ngày</td><td>0.2</td></tr><tr><td>3</td><td>3 ngày</td><td>0.3</td></tr><tr><td>4</td><td>5 ngày</td><td>0.5</td></tr></tbody></table></div>
+<h3 id="monuments-tượng-đài">Monuments (Tượng đài)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#monuments-tượng-đài" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Cấu trúc vĩnh viễn tốn nhiều Gems, chiếm vùng <strong>3x3</strong>. Không biến mất sau khi hoàn thành — giữ mãi mãi. Có thể xây 3 tượng đài tăng giới hạn lượt giúp hàng ngày (+1). Các tượng đài mạnh khác thường được bán đấu giá hoặc làm phần thưởng.</p>
+<p><strong>Lunar Temple:</strong> Vật phẩm hiếm — khi đặt trên farm, giảm số lượt giúp cần thiết để xây tượng đài của bạn. Không ảnh hưởng đến lượt giúp trên farm người khác.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>STT</th><th>Tên</th><th>Loại</th><th>Level</th><th>Chi phí</th><th>Lượt giúp cần</th><th>Phần thưởng</th><th>Hiệu ứng Lunar Temple</th><th>Nguồn</th></tr></thead><tbody><tr><td>1</td><td>Farmer’s Monument</td><td>Vĩnh viễn</td><td>10</td><td>100 gems</td><td>100</td><td>+1 Help Limit</td><td>Giảm còn 50</td><td>Landscaping Build Tab</td></tr><tr><td>2</td><td>Woodcutter’s Monument</td><td>Vĩnh viễn</td><td>20</td><td>200 gems</td><td>1,000</td><td>+1 Help Limit</td><td>Giảm còn 500</td><td>Landscaping Build Tab</td></tr><tr><td>3</td><td>Miner’s Monument</td><td>Vĩnh viễn</td><td>50</td><td>300 gems</td><td>10,000</td><td>+1 Help Limit</td><td>Giảm còn 5,000</td><td>Landscaping Build Tab</td></tr><tr><td>4</td><td>Teamwork Monument</td><td>Vĩnh viễn</td><td>—</td><td>1,000 CH Tickets</td><td>100</td><td>+1 Help Limit</td><td>Giảm còn 50</td><td>Stella - Better Together - CH 11</td></tr><tr><td>5</td><td>Cornucopia</td><td>Vĩnh viễn</td><td>—</td><td>1,000 CH Tickets</td><td>1,000</td><td>+1 Giant Fruit</td><td>Giảm còn 500</td><td>Stella - Paw Prints - CH 12</td></tr><tr><td>6</td><td>Poseidon’s Throne</td><td>Vĩnh viễn</td><td>—</td><td>3,000 CH Tickets</td><td>2,000</td><td>+1 Weed &amp; Dung</td><td>Giảm còn 1,000</td><td>Stella - Crabs N Traps - CH 13</td></tr></tbody></table></div>
+<h2 id="xử-lý-rác-trash-disposal">Xử lý Rác (Trash Disposal)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#xử-lý-rác-trash-disposal" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Sau khi dọn vài farm, bạn sẽ thấy Weeds và Dung trong inventory. Đây là vật phẩm như bất kỳ thứ gì khác, nhưng không bắt buộc phải giữ.</p>
+<h3 id="giao-hàng-deliveries">Giao hàng (Deliveries)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#giao-hàng-deliveries" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Đôi khi <strong>Finn</strong> yêu cầu rác cho giao hàng — luôn tìm mồi câu mới tốt hơn để đấu với chị gái. <strong>The Jester</strong> cũng yêu cầu Dung (có lẽ để chơi khăm). Cả hai NPC đều thưởng <strong>Chapter Tickets</strong>.</p>
+<h3 id="mồi-câu-chum">Mồi câu (Chum)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#mồi-câu-chum" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Dùng <strong>Weeds</strong> làm mồi câu cá — hãy thử xem câu được gì!</p>
+<h3 id="goblins-retreat">Goblin’s Retreat<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#goblins-retreat" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Đến gặp <strong>Goblet</strong> để đốt rác và nhận thêm <strong>Cheers</strong>. Rồi Cheer những bạn bè chưa kịp giúp trong ngày!</p>
+<p>Hoặc bán cho <strong>Garbo</strong> để lấy Coins. Vì Coins có nhiều nguồn khác trong game, nên tốt hơn hết là đưa cho Goblet trừ khi bạn rất thiếu Coins.</p></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-60" aria-expanded="true"><h3>Mục lục</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#canh-tác-hợp-tác-xã-hội" data-for="canh-tác-hợp-tác-xã-hội">Canh tác Hợp tác (Xã hội)</a></li><li class="depth-0"><a href="#menu-xã-hội-social-menu" data-for="menu-xã-hội-social-menu">Menu Xã hội (Social Menu)</a></li><li class="depth-0"><a href="#theo-dõi-following" data-for="theo-dõi-following">Theo dõi (Following)</a></li><li class="depth-0"><a href="#hồ-sơ-profile" data-for="hồ-sơ-profile">Hồ sơ (Profile)</a></li><li class="depth-0"><a href="#giúp-đỡ-helping-out" data-for="giúp-đỡ-helping-out">Giúp đỡ (Helping Out)</a></li><li class="depth-1"><a href="#cổ-vũ-cheering" data-for="cổ-vũ-cheering">Cổ vũ (Cheering)</a></li><li class="depth-1"><a href="#giúp-đỡ-thực-tế-helping" data-for="giúp-đỡ-thực-tế-helping">Giúp đỡ thực tế (Helping)</a></li><li class="depth-1"><a href="#dự-án-projects" data-for="dự-án-projects">Dự án (Projects)</a></li><li class="depth-1"><a href="#thú-cưng-pets" data-for="thú-cưng-pets">Thú cưng (Pets)</a></li><li class="depth-1"><a href="#hoàn-thành-một-lượt-giúp-đỡ" data-for="hoàn-thành-một-lượt-giúp-đỡ">Hoàn thành một lượt giúp đỡ</a></li><li class="depth-0"><a href="#xây-dự-án-riêng-building-your-own-projects" data-for="xây-dự-án-riêng-building-your-own-projects">Xây Dự án Riêng (Building your own Projects)</a></li><li class="depth-1"><a href="#cooking-pots" data-for="cooking-pots">Cooking Pots</a></li><li class="depth-1"><a href="#giant-fruit-trái-cây-khổng-lồ" data-for="giant-fruit-trái-cây-khổng-lồ">Giant Fruit (Trái cây Khổng lồ)</a></li><li class="depth-1"><a href="#monuments-tượng-đài" data-for="monuments-tượng-đài">Monuments (Tượng đài)</a></li><li class="depth-0"><a href="#xử-lý-rác-trash-disposal" data-for="xử-lý-rác-trash-disposal">Xử lý Rác (Trash Disposal)</a></li><li class="depth-1"><a href="#giao-hàng-deliveries" data-for="giao-hàng-deliveries">Giao hàng (Deliveries)</a></li><li class="depth-1"><a href="#mồi-câu-chum" data-for="mồi-câu-chum">Mồi câu (Chum)</a></li><li class="depth-1"><a href="#goblins-retreat" data-for="goblins-retreat">Goblin’s Retreat</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Liên kết ngược</h3><ul id="list-0" class="overflow"><li><a href="../../sunflower-land/beginners/beginners-guide" class="internal">Beginner's Guide — Hướng dẫn cho người mới</a></li><li><a href="../../sunflower-land/mechanics/social-farming-chapter-11" class="internal">Social Farming — Chapter 11</a></li><li><a href="../../sunflower-land/sunflower-land-moc" class="internal">sunflower-land-moc</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Được tạo bằng <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/ezraphm/palace">GitHub</a></li></ul></footer></div></div></body><script src="../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript-965168d7.js" type="module" data-persist="true"></script></html>

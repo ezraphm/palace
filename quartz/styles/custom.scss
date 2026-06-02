@@ -1,3 +1,69 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// === Metal (Kim) Theme — Custom Refinements ===
+
+// Smooth transitions on theme toggle
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+// Gold accent on links
+.article-body a,
+.content a {
+  text-decoration-color: var(--tertiary);
+  text-underline-offset: 3px;
+
+  &:hover {
+    color: var(--secondary);
+    text-decoration-color: var(--secondary);
+  }
+}
+
+// Cleaner code blocks with subtle border
+pre {
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+}
+
+// Gold accent on inline code
+code:not(pre code) {
+  border-left: 2px solid var(--tertiary);
+}
+
+// Explorer sidebar — gold hover accent
+.explorer-item:hover {
+  border-left: 2px solid var(--tertiary);
+}
+
+// Graph view node accent
+.graph-view-container .node circle {
+  fill: var(--tertiary);
+}
+
+// Breadcrumb separator styling
+.breadcrumb-separator {
+  color: var(--gray);
+  opacity: 0.6;
+}
+
+// Table header — subtle gold bottom border
+.article-body th {
+  border-bottom: 2px solid var(--tertiary);
+}
+
+// Blockquote — left gold border
+blockquote {
+  border-left: 3px solid var(--tertiary);
+}
+
+// Search highlight
+mark {
+  background-color: var(--highlight);
+  color: inherit;
+}
+
+// Footer — subtle top separator
+footer {
+  border-top: 1px solid var(--lightgray);
+  opacity: 0.85;
+}

@@ -1,11 +1,11 @@
 ---
-title: "Ezra Pham's Digital Garden"
+title: "The Palace"
 publish: true
 tags:
   - gardenentry
 ---
 
-# 🏛️ Ezra Pham's Digital Garden
+# 🏛️ The Palace
 
 Personal Knowledge Management — single vault, everything connected.
 134 published notes · Updated 2026-06-01

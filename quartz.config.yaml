@@ -199,7 +199,16 @@ plugins:
       links:
         GitHub: https://github.com/ezraphm/palace
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      title: "📝 Gần đây"
+      limit: 5
+      showTags: true
+      hideTagPages: true
+      hideFolderPages: true
+    layout:
+      position: right
+      priority: 40
   - source: github:quartz-community/spacer
     enabled: false
   - source: github:quartz-community/bases-page

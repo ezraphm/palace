@@ -3,7 +3,7 @@ description: Cơ chế Fishing — rods, bait, chum, casting, multi-cast, các l
   kho báu, bản đồ Marine Marvel, Fish Frenzy, Crustaceans, Fish Market, Guaranteed Catch.
 publish: true
 source: https://wiki.sfl.world/en/mechanics/fishing
-updated: 2026-06-01
+updated: 2026-06-03
 tags:
 - game-mechanics
 - sunflower-land
@@ -87,8 +87,11 @@ Ba combo sau **bắt được 100%** bất kể mùa:
 | **Tuna** | Grub + 1x Wild Mushroom | Rẻ nhất (nấm miễn phí) |
 | **Red Snapper** | Red Wiggler + 3x Apple | Rẻ nhất |
 | **Red Snapper** | Red Wiggler + 1x Honey | |
+| **Saw Shark** | Red Wiggler + 3x Speed Chicken | Cá mập |
+| **White Shark** | Red Wiggler + 3x Rich Chicken | Cá mập |
+| **Whale Shark** | Red Wiggler + 3x Fat Chicken | Cá mập |
 
-> Ba loại cá này được yêu cầu nhiều nhất cho deliveries và dùng trong nhiều công thức nấu ăn — đáng nhớ, đặc biệt trong Fish Frenzy.
+> Ba loại cá đầu (Anchovy, Tuna, Red Snapper) được yêu cầu nhiều nhất cho deliveries
 
 ---
 
@@ -145,7 +148,16 @@ Cá sống không được dùng trực tiếp trong bếp. Phải **chế biế
 - **Crab Stick**
 - **Fish Oil**
 
-Nguyên liệu cho mỗi product **thay đổi theo Season** trong game. Xem lịch trình đầy đủ tại: [https://sfl.world/info/fishing/info#FISH_MARKET_RECIPES](https://sfl.world/info/fishing/info#FISH_MARKET_RECIPES)
+#### Công thức theo mùa (cập nhật từ sfl.world)
+
+Current season: **SPRING** → Next: **SUMMER**
+
+| Product | SPRING | SUMMER | AUTUMN | WINTER |
+|---------|--------|--------|--------|--------|
+| **Fish Flake** | Anchovy x4, Porgy x2, Sea Bass x2 | Anchovy x4, Butterflyfish x2, Sea Horse x2 | Anchovy x4, Halibut x2, Muskellunge x2 | Anchovy x4, Blowfish x2, Clownfish x2 |
+| **Fish Stick** | Red Snapper x6, Olive Flounder x2, Zebra Turkeyfish x2 | Red Snapper x6, Surgeonfish x2, Tilapia x2 | Red Snapper x6, Moray Eel x2, Napoleanfish x2 | Red Snapper x6, Walleye x2, Angelfish x2 |
+| **Crab Stick** | Crab x1, Blue Crab x1, Hermit Crab x1, Sea Slug x1 (7.23 P2P) | Crab x1, Mussel x1, Isopod x1, Sea Snail x1 (6.66 P2P) | Crab x1, Shrimp x1, Lobster x1, Barnacle x1 (5.83 P2P) | Crab x1, Oyster x1, Isopod x1, Garden Eel x1 (4.39 P2P) |
+| **Fish Oil** | Tuna x8, Weakfish x2, Oarfish x2 | Tuna x8, Cobia x2, Sunfish x2 | Tuna x8, Mahi Mahi x4, Crab x2 | Tuna x8, Blue Marlin x2, Football fish x2 |
 
 ### Quy trình nấu ăn
 1. Câu cá → 2. Chế biến tại Fish Market (có thời gian chờ) → 3. Nấu tại Kitchen/Firepit (**nấu ngay lập tức**)
@@ -169,7 +181,16 @@ Fish Products từ Fish Market không chỉ để nấu — cá **không thể c
 - Bắt được **bất kỳ loại cá nào trong bất kỳ mùa nào** — không bị giới hạn season
 - Giúp xây dựng đế chế câu cá, hoàn thành deliveries, nhận category rewards dễ dàng hơn
 
-Danh sách đầy đủ: [https://sfl.world/info/fishing/info#FISH_MARKET_GUARANTEED](https://sfl.world/info/fishing/info#FISH_MARKET_GUARANTEED)
+### Guaranteed Catch List (Fish Product → Fish)
+
+| Fish Product | Cá bắt được |
+|-------------|-------------|
+| **Fish Flake** | Anchovy, Butterflyfish, Halibut, Blowfish, Porgy, Clownfish, Sea Bass, Sea Horse, Muskellunge, Horse Mackerel, Squid, Moray Eel, Olive Flounder, Tilapia, Napoleanfish, Surgeonfish, Zebra Turkeyfish, Walleye, Angelfish, Ray |
+| **Fish Stick** | Rock Blackfish, Hammerhead Shark, Tuna, Mahi Mahi, Blue Marlin, Weakfish, Oarfish, Football Fish, Sunfish, Cobia |
+| **Fish Oil** | Barred Knifejaw, Trout, Coelacanth, Saw Shark |
+| **Crab Stick** | Barred Knifejaw, Whale Shark, White Shark, Parrotfish |
+
+> **Ghi chú:** Barred Knifejaw xuất hiện ở cả Fish Oil và Crab Stick. Saw Shark (Fish Oil) là cách farm cá mập không cần Speed Chicken.
 
 VIP multi-cast với products hoạt động, nhưng nhận **cùng một loại cá** mỗi lần.
 
@@ -192,7 +213,66 @@ Có những sinh vật nước **không thể bắt bằng cần câu**. Bên c�
 - **Không có RNG**: mỗi chum **luôn bắt được crustacean tương ứng**
 - Crab Pot **không có chum** → luôn bắt được **Isopod**
 
-Danh sách chum & kết quả: [https://sfl.world/info/fishing/info#CRUSTACEANS](https://sfl.world/info/fishing/info#CRUSTACEANS)
+#### Crab Pot (4h)
+
+| Chum | Kết quả |
+|------|---------|
+| Heart Leaf x3 | Blue Crab |
+| Ribbon x3 | Blue Crab |
+| Wild Grass x3 | Lobster |
+| Frost Pebble x3 | Lobster |
+| Grape x5 | Hermit Crab |
+| Rice x5 | Hermit Crab |
+| Crimstone x2 | Shrimp |
+| Moonfur x1 | Mussel |
+| Fish Stick x2 | Oyster |
+| Fish Oil x2 | Anemone |
+| Crab Stick x2 | Anemone |
+| Không chum | Isopod |
+
+#### Mariner Pot (8h)
+
+| Chum | Kết quả |
+|------|---------|
+| Crimstone x2 | Sea Slug |
+| Chewed Bone x3 | Sea Snail |
+| Ruffroot x3 | Sea Snail |
+| Dewberry x3 | Garden Eel |
+| Duskberry x3 | Garden Eel |
+| Lunara x3 | Sea Grapes |
+| Moonfur x1 | Octopus |
+| Fish Stick x2 | Sea Urchin |
+| Crab Stick x2 | Horseshoe Crab |
+| Không chum | Barnacle |
+
+#### Crustacean P2P Market Value
+
+| Crustacean | Nguồn | Cost (P2P) |
+|------------|-------|------------|
+| Blue Crab | Crab Pot: Heart Leaf x3 | 2.04 |
+| Blue Crab | Crab Pot: Ribbon x3 | 2.04 |
+| Lobster | Crab Pot: Wild Grass x3 | 2.05 |
+| Lobster | Crab Pot: Frost Pebble x3 | 2.06 |
+| Hermit Crab | Crab Pot: Grape x5 | 2.20 |
+| Hermit Crab | Crab Pot: Rice x5 | 2.70 |
+| Shrimp | Crab Pot: Crimstone x2 | 2.21 |
+| Mussel | Crab Pot: Moonfur x1 | 3.06 |
+| Oyster | Crab Pot: Fish Stick x2 | 0.78 |
+| Anemone | Crab Pot: Fish Oil x2 | 0.78 |
+| Anemone | Crab Pot: Crab Stick x2 | 12.83 |
+| Isopod | Crab Pot: Không chum | 0.78 |
+| Sea Slug | Mariner Pot: Crimstone x2 | 2.99 |
+| Sea Snail | Mariner Pot: Chewed Bone x3 | 2.82 |
+| Sea Snail | Mariner Pot: Ruffroot x3 | 2.83 |
+| Garden Eel | Mariner Pot: Dewberry x3 | 2.82 |
+| Garden Eel | Mariner Pot: Duskberry x3 | 4.62 |
+| Sea Grapes | Mariner Pot: Lunara x3 | 3.03 |
+| Octopus | Mariner Pot: Moonfur x1 | 3.84 |
+| Sea Urchin | Mariner Pot: Fish Stick x2 | 1.56 |
+| Horseshoe Crab | Mariner Pot: Crab Stick x2 | 13.61 |
+| Barnacle | Mariner Pot: Không chum | 1.56 |
+
+> **Mẹo:** Crab Stick làm chum có giá cao nhất (12.83-13.61) — nếu có sẵn Crab Stick/Horseshoe Crab thì nên bán, không dùng làm chum. Oyster và Anemone (Fish Oil) là chum rẻ nhất.
 
 ### Lưu ý
 - Bonus ảnh hưởng số lượng cá **không hoạt động** với bẫy nước (kể cả Fish Frenzy)
@@ -249,11 +329,17 @@ Chỉ một số cá mới có thể rơi map piece:
 | | | Hammerhead Shark | 5% | 10% | 15% | 20% |
 | 5 | **PHANTOM BARRACUDA** | Mahi Mahi | 0.18% | 0.36% | 0.54% | 0.72% |
 | | | Squid | 5% | 10% | 15% | 20% |
-| 6 | **GIANT ISOPOD** (Chapter Exclusive) | Anchovy ★ | 0.8% | 1.6% | 2.4% | 3.2% |
+| 6 | **DEEP SEA PIG** (Salt Awakening S14) | Sunfish | 0.5% | 1% | 1.5% | 2% |
+| | | Coelacanth | 0.5% | 1% | 1.5% | 2% |
+| 7 | **DEEP SEA SLUG** (Salt Awakening S14) | Surgeonfish | 0.1% | 0.2% | 0.3% | 0.4% |
+| | | Barred Knifejaw | 1% | 2% | 3% | 4% |
+| 8 | **CRYSTAL SHRIMP** (Salt Awakening S14) | Tuna ★ | 0.8% | 1.6% | 2.4% | 3.2% |
+| | | Sea Bass | 3% | 6% | 9% | 12% |
+| 9 | **GIANT ISOPOD** (Chapter Exclusive) | Anchovy ★ | 0.8% | 1.6% | 2.4% | 3.2% |
 | | | Oarfish | 3% | 6% | 9% | 12% |
-| 7 | **NAUTILUS** (Chapter Exclusive) | Sea Horse | 1% | 2% | 3% | 4% |
+| 10 | **NAUTILUS** (Chapter Exclusive) | Sea Horse | 1% | 2% | 3% | 4% |
 | | | Tuna ★ | 0.2% | 0.4% | 0.6% | 0.8% |
-| 8 | **DOLLOCARIS** (Chapter Exclusive) | Sunfish | 0.5% | 1% | 1.5% | 2% |
+| 11 | **DOLLOCARIS** (Chapter Exclusive) | Sunfish | 0.5% | 1% | 1.5% | 2% |
 | | | Football Fish | 0.5% | 1% | 1.5% | 2% |
 
 > ★ = Guaranteed catch combo
@@ -347,6 +433,9 @@ Trước đây có cơ chế thời gian trong ngày ảnh hưởng câu cá:
 6. **Deep Sea Helm** mở khóa bằng cách bắt ≥5 mỗi loại Basic/Advanced/Expert — dùng guaranteed catch trong Fish Frenzy
 7. **Full Moon + Guardian** cho tỷ lệ map piece cao nhất — một số Marvel guaranteed piece
 8. **Navigation Table** (Salt Awakening Chapter) thêm +100% map piece chance
+9. **Crab Pot chum rẻ nhất**: Fish Oil x2 hoặc Fish Stick x2 (0.78) → Anemone/Oyster. Tránh Crab Stick x2 (12.83) — lỗ nặng
+10. **Salt Awakening Marvels**: Deep Sea Slug có drop rate cực thấp (0.1% Surgeonfish) — cần FM+DSH+Guardian để viable
+11. **Crab Stick seasonal**: Mùa SPRING rẻ nhất (7.23 P2P), WINTER đắt nhất (4.39 P2P) — stock up SPRING nếu cần Crab Stick
 
 ---
 

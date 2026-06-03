@@ -67,3 +67,18 @@ footer {
   border-top: 1px solid var(--lightgray);
   opacity: 0.85;
 }
+
+// === TOC Fix — prevent flex collapse ===
+// Problem: .toc has flex: 0 0.5 auto + overflow-y: hidden,
+// causing it to collapse when recent-notes overflows the sidebar.
+// Fix: don't shrink TOC, let it scroll internally.
+.toc {
+  flex: 0 0 auto !important;
+  overflow-y: auto !important;
+  max-height: 40vh;
+
+  .toc-content.overflow {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+}

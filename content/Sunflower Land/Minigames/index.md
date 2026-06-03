@@ -1,0 +1,4 @@
+---
+title: "Minigames"
+publish: true
+---

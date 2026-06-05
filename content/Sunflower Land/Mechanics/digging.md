@@ -14,7 +14,7 @@ updated: 2026-06-01
 
 # Dig Site
 
-![[digsite.png]]
+![wiki-digsite.png](../Attachments/wiki-digsite.png)
 *Ảnh: What will you dig up?*
 
 Vô số kho báu đang chờ đợi bên dưới lớp cát di động ở phần trên của Bãi biển. Hãy lấy vài cái xẻng và bắt đầu khai quật, rồi tận hưởng phần thưởng hậu hĩnh!

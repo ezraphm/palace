@@ -78,9 +78,7 @@ Bò sản xuất:
 
 Cả Milk và Leather đều có thể trade trên marketplace.
 
-### Bảng XP, Sản Xuất & Chi Phí (Cow — 5 units/pack)
-
-| Level | XP | Sản phẩm | Cost P2P | Cost Sum | Thức ăn ưa thích | Cost P2P | Thức ăn rẻ nhất | Cost P2P/SFL |
+|| Level | XP | Sản phẩm | Cost P2P | Cost Sum | Thức ăn ưa thích | Cost P2P | Thức ăn rẻ nhất | Cost P2P/SFL |
 |-------|-----|----------|----------|----------|------------------|----------|-----------------|--------------|
 | 0→1 | 180 | 1x Milk, 1x Leather | 0.237 | 0.24 | x5 Kernel Blend (60xp) | 0.077 | x5 Kernel Blend (60xp) | 0.077 |
 | 1→2 | 360 | 1x Milk, 1x Leather | 0.237 | 0.47 | x5 Kernel Blend (60xp) | 0.077 | x5 Kernel Blend (60xp) | 0.077 |
@@ -163,7 +161,6 @@ Cả Milk và Leather đều có thể trade trên marketplace.
 ---
 
 **See also:**
-- [[Animals/|Animals (overview)]]
 - [[chicken|Chicken]]
 - [[sheep|Sheep]]
 - [[farm-pets|Farm Pets]]

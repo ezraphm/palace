@@ -2,6 +2,8 @@
 publish: true
 source: https://wiki.sfl.world/en/home/wallets
 title: Ví
+updated: 2026-06-T7 | 23:24
+created: 2026-05-CN | 00:30
 ---
 
 ## Thiết lập Ví của Bạn
@@ -27,5 +29,3 @@ Chỉ tải ví từ các trang web chính thức.
 Bạn tự chịu trách nhiệm về ví của mình. Chúng tôi không thể khôi phục crypto đã mất.
 
 _**Không bao giờ chia sẻ seed phrase của bạn.**_
-
-> **Người đóng góp cho trang này** — [iSPANK](https://wiki.sfl.world/en/user-pages/iSPANK) - tạo ban đầu / sao chép từ Tài liệu chính thức

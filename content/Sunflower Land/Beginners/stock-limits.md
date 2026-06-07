@@ -2,9 +2,10 @@
 publish: true
 source: https://wiki.sfl.world/en/beginners/stock-limits
 title: Kho & Giới hạn
-updated: 2026-05-31T17:40
+updated: 2026-06-T7 | 23:21
 belongs_to:
   - "[[beginners-index]]"
+created: 2026-06-T7 | 22:39
 ---
 
 # Kho & Giới hạn (Stock & Limits)
@@ -36,17 +37,17 @@ Mọi loại **crop, fruit, flower, greenhouse plant** đều có số lượng 
 ## Công cụ Trang trại (Farm Tools)
 
 Các tool được bổ sung bởi **Workbench Restock**:
-- Axes, Pickaxes, Stone Pickaxes, Iron Pickaxes, Gold Pickaxes
-- Oil Drills
-- Fishing Rods, Crab Pots, Mariner Pots, Salt Rakes
+- Axe, Pickaxe, Stone Pickaxe, Iron Pickaxe, Gold Pickaxe
+- Oil Drill
+- Rod, Crab Pot, Mariner Pot, Salt Rake
 
 ### Các boost cho Farm Tools
 
-| Boost | Effect | Loại |
-|-------|--------|------|
-| **Toolshed** (building) | +50% số lượng mỗi workbench tool | Building |
-| **More Axes** (skill) | +50 Axes khi Restock | Skill |
-| **More Picks** (skill) | Tăng số lượng mọi loại pickaxe một lượng lớn | Skill |
+| Boost                   | Effect                                       | Loại     |
+| ----------------------- | -------------------------------------------- | -------- |
+| **Toolshed** (building) | +50% số lượng mỗi workbench tool             | Building |
+| **More Axes** (skill)   | +50 Axe khi Restock                          | Skill    |
+| **More Picks** (skill)  | Tăng số lượng mọi loại pickaxe một lượng lớn | Skill    |
 
 ---
 
@@ -68,16 +69,18 @@ Mỗi ngày, một con tàu nhỏ xuất hiện bên dưới đảo, thêm tool 
 - Số lượng thêm vào **không thể vượt quá** tổng giới hạn cửa hàng (bạn có thể thấy ít items hơn trong game)
 
 **Công cụ được cung cấp:**
+
 | Tool | Số lượng |
 |------|----------|
-| Axes | 50 |
-| Pickaxes | 15 |
-| Stone Pickaxes | 5 |
-| Iron Pickaxes | 1 |
-| Fishing Rods | 10 |
-| Sand Shovels | 5 |
+| Axe | 50 |
+| Pickaxe | 15 |
+| Stone Pickaxe | 5 |
+| Iron Pickaxe | 1 |
+| Rod | 10 |
+| Sand Shovel | 5 |
 
 **Hạt giống được cung cấp:**
+
 | Seed | Số lượng |
 |------|----------|
 | Sunflower | 100 |
@@ -97,7 +100,7 @@ Mỗi ngày, một con tàu nhỏ xuất hiện bên dưới đảo, thêm tool 
 
 ### Market Restock
 
-- Chỉ có sẵn tại **Farmer's Market**
+- Chỉ có sẵn tại **Betty's Market**
 - **Cost:** 15 Gems
 - Bổ sung tồn kho cho: crops, fruits, flowers, greenhouse goods
 

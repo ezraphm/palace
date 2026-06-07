@@ -2,6 +2,8 @@
 publish: true
 source: https://wiki.sfl.world/en/links
 title: Liên kết
+updated: 2026-06-T7 | 23:25
+created: 2026-05-CN | 00:30
 ---
 
 ## Liên kết Chính thức
@@ -52,5 +54,3 @@ title: Liên kết
 - [Skill Points Calculator By iK, Elowine, LaMouette, DDoubled & Fabuu](https://docs.google.com/spreadsheets/d/1N2LeM-Ik96R3hMSY_j4TvXWWA8GJ4EtZoguLoHmxqtc/edit?gid=0#gid=0)
 - [Combo Maker](https://docs.google.com/spreadsheets/d/1IR8_gib9KpY2V0aDNa4TX9oc4rIzKnKBGnj2ybZFlOo/edit?gid=1807520899#gid=1807520899)
 - [Crops to Coins](https://docs.google.com/spreadsheets/d/1QIiViEHYxPqKAUs-fmYlBDo99ZmecpLT_oMVDRiToLA/edit?gid=982574094#gid=982574094)
-
-> **Người đóng góp cho trang này** — Andrei (chỉnh sửa lần cuối 12/28/2025)

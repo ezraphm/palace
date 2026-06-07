@@ -1,20 +1,20 @@
 ---
-description: "Cơ chế Mining — khai thác stone, iron, gold, crimstone, sunstone; pickaxes,
-  node forging, mining skills, và chiến lược tối ưu."
+description: Cơ chế Mining — khai thác stone, iron, gold, crimstone, sunstone; pickaxes, node forging, mining skills, và chiến lược tối ưu.
 publish: true
 source: https://wiki.sfl.world/en/mechanics/mining
-updated: 2026-06-01
+updated: 2026-06-CN | 13:44
 tags:
-- game-mechanics
-- sunflower-land
-- mining
-- stone
-- iron
-- gold
-- crimstone
-- sunstone
-- skills
+  - game-mechanics
+  - sunflower-land
+  - mining
+  - stone
+  - iron
+  - gold
+  - crimstone
+  - sunstone
+  - skills
 title: Mining
+created: 2026-06-T6 | 11:34
 ---
 
 > [!info] Trang này thảo luận về **node forging (grouping)** — một tính năng sắp tới có thể thay đổi trước khi ra mắt chính thức.
@@ -186,10 +186,3 @@ Có thể dùng setup Stone hoặc Iron Specialist (hoặc kết hợp cả hai)
 | **Gold** | Iron Pickaxe | 10 Sunstone | +6 | Pure → Prime |
 | **Crimstone** | Gold Pickaxe | 20 Sunstone | +20 | — |
 
----
-
-## Đóng góp
-
-- Thebyber — tạo trang, bố cục, liên kết, gắn tag
-- iSPANK — chỉnh sửa nhỏ, liên kết, gắn tag
-- librophagus — chỉnh sửa nhỏ

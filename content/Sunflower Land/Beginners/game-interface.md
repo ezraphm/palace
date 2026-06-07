@@ -12,7 +12,7 @@ source:
   - https://wiki.sfl.world/en/mechanics/island
 status: expanded
 title: Game Interface — Giao diện Game
-updated: 2026-05-31T21:28
+updated: 2026-06-T7 | 23:25
 ---
 
 ## Tổng Quan Màn Hình
@@ -63,14 +63,17 @@ Buildings có sẵn:
 
 | Building | Yêu cầu | Chức năng |
 |----------|---------|-----------|
-| Water Well | Basic | Plot fertility (tối đa Lv4) |
-| Kitchen | Basic | Cooking nâng cao |
+| Water Well | Bumpkin Lv 2 | Plot fertility (upgrade Lv 1→4) |
+| Kitchen | Bumpkin Lv 5 | Cooking nâng cao |
 | Crafting Box | Basic | Craft items cho deliveries |
 | Compost Bin | Basic | Sprout Mix + Earthworms |
 | Bakery | Basic | Bánh cakes |
 | Deli | Basic | Cheese + food types |
-| Hen House | Petal Island | Chickens |
-| Barn | Petal Island | Cows & Sheep |
+| Hen House | Bumpkin Lv 6 | Chickens (upgrade Lv 1→3) |
+| Smoothie Shack | Advanced | Smoothie drinks |
+| Barn | Bumpkin Lv 30 | Cows & Sheep (upgrade Lv 1→3) |
+| Pet House | Pet Island | Pets system (upgrade Lv 1→3) |
+| Aging Shed | Salt Island | Salt & fish aging (upgrade Lv 1→6) |
 | Greenhouse | Desert Island | Rice, Olive, Grape (cần Oil) |
 | Crop Machine | Desert Island | Auto farming (cần Oil) |
 
@@ -78,9 +81,9 @@ Buildings có sẵn:
 
 ![Blacksmith's Workbench](../Attachments/game-interface-home-blacksmith_sworkbench.png)
 
-### Plaza (Pumpkin Plaza)
+### Plaza — Pumpkin Plaza (Lv 2)
 
-Mở khóa từ đầu. NPCs cho deliveries, Mega Bounty Board, Stella's Megastore, Potion Room, keyed treasure chests. Pet shop sắp ra mắt.
+Mở khóa từ Level 2. NPCs cho deliveries, Mega Bounty Board, Stella's Megastore, Potion Room, keyed treasure chests. Pet shop sắp ra mắt.
 
 ### Beach (Lvl 4)
 
@@ -202,4 +205,3 @@ Rearrange và decorate farm. Biomes = "skin" thay đổi appearance. Chỉ mua �
 
 ---
 
-> **Nguồn:** Travel Map (librophagus), Guide Draft (Jaepi, Haesoo, iSPANK, librophagus), Home Island (librophagus)

@@ -1,4 +1,0 @@
----
-title: "Animals"
-publish: true
----

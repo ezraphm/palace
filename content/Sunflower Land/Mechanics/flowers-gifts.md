@@ -17,9 +17,22 @@ updated: 2026
 
 ## Làm vườn Hoa (Flower Gardening)
 
-Sau khi bạn nâng cấp hòn đảo lên **Petal Paradise**, bạn sẽ được cấp một luống hoa (flower bed) và một tổ ong (beehive), và hành trình làm vườn của bạn sẽ bắt đầu!
+Sau khi bạn nâng cấp hòn đảo lên **Petal Paradise**, bạn sẽ được cấp một luống hoa (flower bed) và một tổ ong (beehive).
 
-Việc trồng hoa bắt đầu bằng cách mua hạt giống (seed) từ chợ nông dân (farmer's market) trên đảo của bạn. Có bảy loại hạt giống, ba loại có thể trồng trong bất kỳ mùa nào và bốn loại xoay vòng theo từng mùa.
+### Flower Seeds
+
+| Seed | Level | Giá (coins) | Thời gian | Mùa |
+|------|-------|------------|-----------|-----|
+| Sunpetal Seed | 13 | 16 | 24h | All-year |
+| Bloom Seed | 22 | 32 | 48h | All-year |
+| Lily Seed | 27 | 48 | 5 ngày | All-year |
+| Edelweiss Seed | 35 | 96 | 3 ngày | Seasonal |
+| Gladiolus Seed | 35 | 96 | 3 ngày | Seasonal |
+| Lavender Seed | 35 | 96 | 3 ngày | Seasonal |
+| Clover Seed | 35 | 96 | 3 ngày | Seasonal |
+
+> **3 loại all-year** (Sunpetal, Bloom, Lily) — trồng bất kỳ mùa nào.
+> **4 loại seasonal** (Edelweiss, Gladiolus, Lavender, Clover) — xoay vòng theo mùa, kiểm tra tại market.
 
 Sau khi mua hạt giống, bạn cũng cần một tài nguyên khác để thụ phấn chéo (cross-pollinate) cho mầm non của mình. Bạn sẽ chủ yếu sử dụng trái cây (fruits) và cây trồng (crops), nhưng cũng có thể sử dụng các loại hoa khác mà bạn đã trồng. Khi mới bắt đầu, mỗi sự kết hợp sẽ được liệt kê là không xác định (unknown) và sẽ được tiết lộ sau khi bạn thu thập hoa đã trưởng thành. Nhiều loại hoa có nhiều hơn một công thức, nhưng bạn sẽ chỉ thấy kết quả của một sự kết hợp nếu bạn đã từng lai tạo hạt giống đó với cây đó trước đây.
 

@@ -1,14 +1,14 @@
 ---
-description: Cơ chế Fishing — rods, bait, chum, casting, multi-cast, các loại cá,
-  kho báu, bản đồ Marine Marvel, Fish Frenzy, Crustaceans, Fish Market, Guaranteed Catch.
+description: Cơ chế Fishing — rods, bait, chum, casting, multi-cast, các loại cá, kho báu, bản đồ Marine Marvel, Fish Frenzy, Crustaceans, Fish Market, Guaranteed Catch.
 publish: true
 source: https://wiki.sfl.world/en/mechanics/fishing
-updated: 2026-06-03
+updated: 2026-06-CN | 13:42
 tags:
-- game-mechanics
-- sunflower-land
-- fishing
+  - game-mechanics
+  - sunflower-land
+  - fishing
 title: Fishing
+created: 2026-06-T4 | 21:18
 ---
 
 ## Tổng quan
@@ -436,9 +436,3 @@ Trước đây có cơ chế thời gian trong ngày ảnh hưởng câu cá:
 9. **Crab Pot chum rẻ nhất**: Fish Oil x2 hoặc Fish Stick x2 (0.78) → Anemone/Oyster. Tránh Crab Stick x2 (12.83) — lỗ nặng
 10. **Salt Awakening Marvels**: Deep Sea Slug có drop rate cực thấp (0.1% Surgeonfish) — cần FM+DSH+Guardian để viable
 11. **Crab Stick seasonal**: Mùa SPRING rẻ nhất (7.23 P2P), WINTER đắt nhất (4.39 P2P) — stock up SPRING nếu cần Crab Stick
-
----
-
-**Người đóng góp cho trang này:** librophagus (primary content), iSPANK (tagging)
-
-*Lần chỉnh sửa cuối: 24/05/2026*

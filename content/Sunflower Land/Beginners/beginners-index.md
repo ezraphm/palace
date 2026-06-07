@@ -40,6 +40,24 @@ Các hệ thống cấp cao dành cho những nông dân kỳ cựu.
 
 > ⚡ **Mẹo:** Trò chơi phát triển qua mỗi Chapter (3 tháng một lần) với các cơ chế mới, SFTs và NFTs — nên nông trại luôn phát triển cùng bạn.
 
+## 📚 Tài Liệu Tham Khảo (Deep Dive)
+
+### Bắt buộc đọc
+- [[how-to-start]] — Bước đầu: đăng ký, tutorial, farm setup
+- [[farming-guide]] — Crops, seeds, seasons, growth times
+- [[stock-limits]] — Shop limits, restock (Free/Gems), inventory caps
+- [[tokens]] — Hệ thống 5 loại tiền tệ: Coins, Gems, $FLOWER, Chapter Tickets, Love Charms
+- [[earning-coins]] — Cách kiếm Coins hiệu quả (deliveries, crops, bounties, skills)
+
+### Cơ chế mở rộng
+- [[game-interface]] — Giao diện, buildings, zones, cooking, skills overview
+- [[travel-map]] — Bản đồ di chuyển, level requirements từng zone
+- [[salt-aging]] — Salt Rake, Refined Salt, Aging Shed, Prime Aged boosts
+
+### Tham khảo
+- [[faq]] — Câu hỏi thường gặp (Bee Swarm, Full Moon, Moon Fruits...)
+- [[about-sunflower-land]] — Tổng quan game, Web3, digital collectibles
+
 ## ⚔️ Factions
 
 Khi bạn tiến bộ, bạn sẽ có cơ hội tham gia một Faction và liên minh với một trong các cộng đồng của Sunflower Land:

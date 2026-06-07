@@ -14,7 +14,7 @@ source:
   - https://wiki.sfl.world/en/mechanics/seasons
 status: expanded
 title: Farming Guide — Hướng dẫn Canh tác
-updated: 2026-05-31
+updated: 2026-06-T7 | 23:26
 ---
 
 The foundation của mọi farming game chính là farming! Sunflower Land cung cấp dynamic system để trồng crops, fruits và các produce khác. Hầu như mọi thứ đều bắt đầu từ đất, và nhiều game mechanics kết hợp để tối đa hóa fertility của land bạn.
@@ -41,25 +41,51 @@ Timer hiển thị số đếm ngược trên plot. Tắt được qua: Game Opt
 2. Active VIP status
 3. Face verification tại Retreat
 
-### Crop Type
+### Crop Types (Phân loại cây trồng)
 
-Crops chia làm 3 loại:
+Crops chia làm 3 loại chính dựa trên thời gian thu hoạch. Việc phân loại này rất quan trọng vì nó quyết định các hiệu ứng từ kỹ năng chuyên biệt:
 
-| Type | Growth Time | Skill Boost | Play Style |
-|------|-------------|-------------|------------|
-| **Basic** | 1–30 phút | Young Farmer (+0.1) | Active, replant liên tục |
-| **Medium** | 1–12 giờ | Experienced Farmer (+0.1) | Balanced |
-| **Advanced** | 16–48 giờ | Old Farmer (+0.1) | Plant qua đêm |
+*   **Acre Farm**: Tăng sản lượng Advanced Crops +1, nhưng giảm sản lượng Basic & Medium Crops -0.5.
+*   **Hectare Farm**: Tăng sản lượng Basic & Medium Crops +1, nhưng giảm sản lượng Advanced Crops -0.5.
+*   **Strong Roots**: Giảm 10% thời gian sinh trưởng của Advanced Crops.
 
-**Specialization skills:**
+#### 1. Basic Crops (Thời gian sinh trưởng $\le$ 30 phút)
 
-| Skill | Effect |
-|-------|--------|
-| **Acre Farm** | Advanced +1, Basic & Medium −0.5 |
-| **Hectare Farm** | Basic & Medium +1, Advanced −0.5 |
-| **Strong Roots** | Advanced −10% growth time |
+| Tên Seed | Giá mua (Coins) | Thời gian | Cấp yêu cầu (Bumpkin) | Thu hoạch | Giá bán (Coins) |
+|---|---|---|---|---|---|
+| **Sunflower Seed** | 0.01 | 1 phút | 1 | Sunflower | 0.02 |
+| **Potato Seed** | 0.10 | 5 phút | 1 | Potato | 0.14 |
+| **Rhubarb Seed** | 0.15 | 10 phút | 1 | Rhubarb | 0.24 |
+| **Pumpkin Seed** | 0.20 | 30 phút | 2 | Pumpkin | 0.40 |
+| **Zucchini Seed** | 0.20 | 30 phút | 2 | Zucchini | 0.40 |
 
-Lấy cả Acre + Hectare = +0.5 cho tất cả. Chọn 1 trong 2 = boost mạnh cho type tương ứng.
+#### 2. Medium Crops (Thời gian sinh trưởng từ 1 giờ đến 12 giờ)
+
+| Tên Seed | Giá mua (Coins) | Thời gian | Cấp yêu cầu (Bumpkin) | Thu hoạch | Giá bán (Coins) |
+|---|---|---|---|---|---|
+| **Carrot Seed** | 0.50 | 1 giờ | 2 | Carrot | 0.80 |
+| **Yam Seed** | 0.50 | 1 giờ | 2 | Yam | 0.80 |
+| **Cabbage Seed** | 1.00 | 2 giờ | 3 | Cabbage | 1.50 |
+| **Broccoli Seed** | 1.00 | 2 giờ | 3 | Broccoli | 1.50 |
+| **Soybean Seed** | 1.50 | 3 giờ | 3 | Soybean | 2.30 |
+| **Beetroot Seed** | 2.00 | 4 giờ | 3 | Beetroot | 2.80 |
+| **Pepper Seed** | 2.00 | 4 giờ | 3 | Pepper | 3.00 |
+| **Cauliflower Seed** | 3.00 | 8 giờ | 4 | Cauliflower | 4.25 |
+| **Parsnip Seed** | 5.00 | 12 giờ | 4 | Parsnip | 6.50 |
+
+#### 3. Advanced Crops (Thời gian sinh trưởng $\ge$ 16 giờ)
+
+| Tên Seed | Giá mua (Coins) | Thời gian | Cấp yêu cầu (Bumpkin) | Thu hoạch | Giá bán (Coins) |
+|---|---|---|---|---|---|
+| **Eggplant Seed** | 6.00 | 16 giờ | 5 | Eggplant | 8.00 |
+| **Corn Seed** | 7.00 | 20 giờ | 5 | Corn | 9.00 |
+| **Onion Seed** | 7.00 | 20 giờ | 5 | Onion | 10.00 |
+| **Radish Seed** | 7.00 | 24 giờ | 5 | Radish | 9.50 |
+| **Wheat Seed** | 5.00 | 24 giờ | 5 | Wheat | 7.00 |
+| **Turnip Seed** | 5.00 | 24 giờ | 6 | Turnip | 8.00 |
+| **Kale Seed** | 7.00 | 36 giờ | 7 | Kale | 10.00 |
+| **Artichoke Seed** | 7.00 | 36 giờ | 8 | Artichoke | 12.00 |
+| **Barley Seed** | 10.00 | 48 giờ | 14 | Barley | 12.00 |
 
 ---
 
@@ -287,4 +313,3 @@ Xem thêm: [[seasons]]
 
 ---
 
-> **Contributors:** librophagus (primary), iSPANK, Hiro (Crop Machine info)

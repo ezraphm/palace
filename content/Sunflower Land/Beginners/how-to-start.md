@@ -60,8 +60,19 @@ Sau khi tạo tài khoản, bạn sẽ xuất hiện trên **Home Island** với
 
 ## Hành trình người chơi (Farming Progression)
 
+### 🔄 The Core Loop (Vòng lặp cốt lõi)
+
+Để phát triển trang trại, bạn cần tuân thủ vòng lặp cơ bản sau (được Pumpkin Pete khuyến khích):
+
+1.  **Sell & Reinvest**: Bán các nông sản ban đầu (như Sunflower) $\to$ Thu về **Coins** $\to$ Dùng Coins mua **Seeds** mới.
+2.  **Plant & Harvest**: Trồng hạt giống, tưới nước và thu hoạch khi đến kỳ.
+3.  **Cook & Feed**: Nấu các món ăn (Meals) từ nông sản đã thu hoạch $\to$ Cho **Bumpkin** ăn.
+4.  **Level Up**: Việc ăn uống giúp Bumpkin tăng **XP** $\to$ Lên cấp $\to$ Mở khóa thêm **Crops, Expansions, Buildings** và các khả năng mới.
+
+---
+
 ### 🌻 Early Game (Cấp 1–15)
-- **Crops & Fruit** — Mua seeds ở market, plant & harvest lấy coins.
+...- **Crops & Fruit** — Mua seeds ở market, plant & harvest lấy coins.
 - **Tools & Gathering** — Craft tool dùng một lần để gather resources (gỗ, đá, sắt).
 - **Cooking & Levelling** — Nấu meals, feed Bumpkin, tăng level.
 - **Seasons** — Mỗi 7 ngày có season mới với crops, fish & weather events riêng.

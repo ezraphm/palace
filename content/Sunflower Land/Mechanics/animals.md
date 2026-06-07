@@ -23,6 +23,37 @@ Bạn có thể tìm thấy tất cả các số liệu cứng về chăn nuôi 
 
 Có hai công trình nuôi nhốt động vật: **Hen House** (chickens) và **Barn** (sheep và cows cùng nhau). Mặc định cả hai công trình đều có 10 chỗ. Động vật không già đi và không thể chết do bị bỏ đói hay thiếu chăm sóc.
 
+### Animal Stats
+
+| Animal | Mua giá | Level yêu cầu | Công trình | Kích thước ô | Sản phẩm |
+|--------|---------|--------------|------------|-------------|---------|
+| 🐔 Chicken | 50 coins | 6 | Hen House | 2×2 | Egg, Feather |
+| 🐄 Cow | 100 coins | 14 | Barn | 2×2 | Milk, Leather |
+| 🐑 Sheep | 120 coins | 18 | Barn | 2×2 | Wool (Merino) |
+
+### XP Required per Level
+
+| Level | Chicken | Cow | Sheep |
+|-------|---------|-----|-------|
+| 0→1 | 60 | 180 | 120 |
+| 1→2 | 120 | 360 | 240 |
+| 2→3 | 240 | 720 | 480 |
+| 3→4 | 360 | 1,080 | 720 |
+| 4→5 | 480 | 1,440 | 960 |
+| 5→6 | 660 | 1,980 | 1,320 |
+| 6→7 | 840 | 2,520 | 1,680 |
+| 7→8 | 1,020 | 3,060 | 2,040 |
+| 8→9 | 1,200 | 3,600 | 2,400 |
+| 9→10 | 1,440 | 4,320 | 2,880 |
+| 10→11 | 1,680 | 5,040 | 3,360 |
+| 11→12 | 1,920 | 5,760 | 3,840 |
+| 12→13 | 2,160 | 6,480 | 4,320 |
+| 13→14 | 2,400 | 7,200 | 4,800 |
+| 14→15 | 2,720 | 8,160 | 5,440 |
+| **Total** | **17,520** | **52,560** | **35,040** |
+
+> Cow cần gần gấp 3 XP của Chicken để lên cấp 15. Sheep cần gấp đôi.
+
 ### Mua một con vật
 
 Nhấp vào biểu tượng túi/cửa hàng ở góc trên bên phải của công trình. Mỗi sinh vật tốn Coins ban đầu. Bạn có thể mua nhiều con tùy theo dung lượng (Capacity) hiển thị ở cuối giao diện.

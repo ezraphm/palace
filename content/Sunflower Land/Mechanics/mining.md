@@ -1,20 +1,20 @@
 ---
-description: "Cơ chế Mining — khai thác stone, iron, gold, crimstone, sunstone; pickaxes,
-  node forging, mining skills, và chiến lược tối ưu."
+description: Cơ chế Mining — khai thác stone, iron, gold, crimstone, sunstone; pickaxes, node forging, mining skills, và chiến lược tối ưu.
 publish: true
 source: https://wiki.sfl.world/en/mechanics/mining
-updated: 2026-06-01
+updated: 2026-06-CN | 13:44
 tags:
-- game-mechanics
-- sunflower-land
-- mining
-- stone
-- iron
-- gold
-- crimstone
-- sunstone
-- skills
+  - game-mechanics
+  - sunflower-land
+  - mining
+  - stone
+  - iron
+  - gold
+  - crimstone
+  - sunstone
+  - skills
 title: Mining
+created: 2026-06-T6 | 11:34
 ---
 
 > [!info] Trang này thảo luận về **node forging (grouping)** — một tính năng sắp tới có thể thay đổi trước khi ra mắt chính thức.
@@ -47,7 +47,7 @@ Gold → Gold Pickaxe → Crimstone / Sunstone
 
 ## Stone
 
-![[pickaxe.png]]
+![wiki-pickaxe.png](../Attachments/wiki-pickaxe.png)
 *Cost và restock của Pickaxe*
 
 Để có được **Stone**, cần chế tạo **Pickaxe** (loại cơ bản) để khai thác **Stone Rock**.
@@ -56,7 +56,7 @@ Gold → Gold Pickaxe → Crimstone / Sunstone
 
 Khi tiến xa hơn, **Sunstone** có thể dùng để mở khóa thêm Stone Rock nodes:
 
-| Node | Chi phí |
+|| Node | Chi phí ||
 |------|---------|
 | Node đầu tiên | 4 Sunstone |
 | Mỗi node tiếp theo | +3 Sunstone |
@@ -71,13 +71,13 @@ Sắp tới có thể **gom nhóm Stone Rocks** lại để thu được nhiều
 > [!tip] Mẹo cho người mới
 > Hãy lấy **Stone Beetle** từ blacksmith càng sớm càng tốt — tăng hiệu quả mining stone.
 
-![[stone_beetle.png]]
+![wiki-stone_beetle.png](../Attachments/wiki-stone_beetle.png)
 
 ---
 
 ## Iron
 
-![[stone_pickaxe.png]]
+![wiki-stone_pickaxe.png](../Attachments/wiki-stone_pickaxe.png)
 *Cost và restock của Stone Pickaxe*
 
 Để có được **Iron**, cần chế tạo **Stone Pickaxe** để khai thác **Iron Rock**.
@@ -97,13 +97,13 @@ Sắp tới có thể **gom nhóm Stone Rocks** lại để thu được nhiều
 > [!tip] Mẹo
 > Hãy lấy **Iron Beetle** từ blacksmith để tăng hiệu quả mining iron.
 
-![[iron_beetle.png]]
+![wiki-iron_beetle.png](../Attachments/wiki-iron_beetle.png)
 
 ---
 
 ## Gold
 
-![[iron_pickaxe.png]]
+![wiki-iron_pickaxe.png](../Attachments/wiki-iron_pickaxe.png)
 *Cost và restock của Iron Pickaxe*
 
 Để có được **Gold**, cần chế tạo **Iron Pickaxe** để khai thác **Gold Rock**.
@@ -123,13 +123,13 @@ Sắp tới có thể **gom nhóm Stone Rocks** lại để thu được nhiều
 > [!tip] Mẹo
 > Hãy lấy **Gold Beetle** từ blacksmith để tăng hiệu quả mining gold.
 
-![[gold_beetle.png]]
+![wiki-gold_beetle.png](../Attachments/wiki-gold_beetle.png)
 
 ---
 
 ## Crimstone
 
-![[gold_pickaxe.png]]
+![wiki-gold_pickaxe.png](../Attachments/wiki-gold_pickaxe.png)
 *Cost và restock của Gold Pickaxe*
 
 Để có được **Crimstone**, cần chế tạo **Gold Pickaxe** để khai thác **Crimstone Rock**.
@@ -172,7 +172,7 @@ Có thể dùng setup Stone hoặc Iron Specialist (hoặc kết hợp cả hai)
 - **Fire Kissed**
 - **Fireside Alchemist**
 
-![[mining_skills.png]]
+![wiki-mining_skills.png](../Attachments/wiki-mining_skills.png)
 *Cây kỹ năng Mining đầy đủ*
 
 ---
@@ -186,10 +186,3 @@ Có thể dùng setup Stone hoặc Iron Specialist (hoặc kết hợp cả hai)
 | **Gold** | Iron Pickaxe | 10 Sunstone | +6 | Pure → Prime |
 | **Crimstone** | Gold Pickaxe | 20 Sunstone | +20 | — |
 
----
-
-## Đóng góp
-
-- Thebyber — tạo trang, bố cục, liên kết, gắn tag
-- iSPANK — chỉnh sửa nhỏ, liên kết, gắn tag
-- librophagus — chỉnh sửa nhỏ

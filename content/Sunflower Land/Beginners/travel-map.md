@@ -2,7 +2,7 @@
 publish: true
 source: https://wiki.sfl.world/en/beginners/map
 title: Bản đồ Di chuyển
-updated: 2026-05-31T18:10
+updated: 2026-06-06
 belongs_to:
   - "[[beginners-index]]"
   - "[[how-to-start]]"
@@ -21,7 +21,7 @@ belongs_to:
 ### 🏠 Home
 Trang trại nhà của bạn, nơi bạn dành phần lớn thời gian. Có thể scroll để xem các cạnh của đất, nhưng **không thể đi bộ** như các zone khác.
 
-### 🏛️ Pumpkin Plaza
+### 🏛️ Pumpkin Plaza (Lv 2)
 Trung tâm của thế giới — nơi tập trung nhiều NPC nhất:
 - **Deliveries** — giao hàng cho nhiều NPC
 - **Mega Bounty Board** — nhiệm vụ săn thưởng

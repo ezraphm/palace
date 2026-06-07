@@ -15,8 +15,8 @@ tags:
   - merino
   - game-mechanics
 type: wiki
-updated: 2026-06-03
-title: "Sheep"
+updated: 2026-06-T7 | 22:19
+title: Sheep
 ---
 
 # Sheep (Cừu)
@@ -76,25 +76,23 @@ Cừu là một trong ba loại động vật trong Sunflower Land, được nu�
 
 Cả hai đều có thể trade trên marketplace.
 
-### Bảng XP, Sản Xuất & Chi Phí (Sheep — 3 units/pack)
-
-| Level | XP | Sản phẩm | Cost P2P | Cost Sum | Thức ăn ưa thích | Cost P2P | Thức ăn rẻ nhất | Cost P2P/SFL |
+|| Level | XP | Sản phẩm | Cost P2P | Cost Sum | Thức ăn ưa thích | Cost P2P | Thức ăn rẻ nhất | Cost P2P/SFL |
 |-------|-----|----------|----------|----------|------------------|----------|-----------------|--------------|
-| 0→1 | 120 | 1x Wool, 1x Merino Wool | 0.072 | 0.07 | x3 Kernel Blend (60xp) | 0.046 | x3 Kernel Blend (60xp) | 0.046 |
-| 1→2 | 240 | 1x Wool, 1x Merino Wool | 0.072 | 0.14 | x3 Kernel Blend (60xp) | 0.046 | x3 Kernel Blend (60xp) | 0.046 |
-| 2→3 | 480 | 1x Wool, 1x Merino Wool | 0.072 | 0.22 | x3 Kernel Blend (60xp) | 0.046 | x3 Kernel Blend (60xp) | 0.046 |
-| 3→4 | 720 | 2x Wool, 1x Merino Wool | 0.129 | 0.35 | x3 Hay (60xp) | 0.054 | x3 Hay (60xp) | 0.054 |
-| 4→5 | 960 | 2x Wool, 1x Merino Wool | 0.129 | 0.47 | x3 Hay (60xp) | 0.054 | x3 Hay (60xp) | 0.054 |
-| 5→6 | 1,320 | 2x Wool, 2x Merino Wool | 0.144 | 0.62 | x3 Hay (60xp) | 0.054 | x3 Hay (60xp) | 0.054 |
-| 6→7 | 1,680 | 2x Wool, 2x Merino Wool | 0.144 | 0.76 | x3 NutriBarley (60xp) | 0.087 | x3 NutriBarley (60xp) | 0.087 |
-| 7→8 | 2,040 | 3x Wool, 2x Merino Wool | 0.201 | 0.96 | x3 NutriBarley (60xp) | 0.087 | x3 NutriBarley (60xp) | 0.087 |
-| 8→9 | 2,400 | 3x Wool, 2x Merino Wool | 0.201 | 1.16 | x3 NutriBarley (60xp) | 0.087 | x3 NutriBarley (60xp) | 0.087 |
-| 9→10 | 2,880 | 3x Wool, 3x Merino Wool | 0.216 | 1.38 | x3 NutriBarley (60xp) | 0.087 | x3 NutriBarley (60xp) | 0.087 |
-| 10→11 | 3,360 | 3x Wool, 3x Merino Wool | 0.216 | 1.60 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
-| 11→12 | 3,840 | 3x Wool, 3x Merino Wool | 0.216 | 1.81 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
-| 12→13 | 4,320 | 3x Wool, 3x Merino Wool | 0.216 | 2.03 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
-| 13→14 | 4,800 | 3x Wool, 3x Merino Wool | 0.216 | 2.24 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
-| 14→15 | 5,440 | 4x Wool, 4x Merino Wool | 0.288 | 2.53 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
+| 0→1 | 120 | 1x Wool, 1x Merino Wool | 0.046 | 0.046 | x3 Kernel Blend (60xp) | 0.046 | x3 Kernel Blend (60xp) | 0.046 |
+| 1→2 | 240 | 1x Wool, 1x Merino Wool | 0.046 | 0.092 | x3 Kernel Blend (60xp) | 0.046 | x3 Kernel Blend (60xp) | 0.046 |
+| 2→3 | 480 | 1x Wool, 1x Merino Wool | 0.046 | 0.138 | x3 Kernel Blend (60xp) | 0.046 | x3 Kernel Blend (60xp) | 0.046 |
+| 3→4 | 720 | 2x Wool, 1x Merino Wool | 0.054 | 0.162 | x3 Hay (60xp) | 0.054 | x3 Hay (60xp) | 0.054 |
+| 4→5 | 960 | 2x Wool, 1x Merino Wool | 0.054 | 0.216 | x3 Hay (60xp) | 0.054 | x3 Hay (60xp) | 0.054 |
+| 5→6 | 1,320 | 2x Wool, 2x Merino Wool | 0.054 | 0.27 | x3 Hay (60xp) | 0.054 | x3 Hay (60xp) | 0.054 |
+| 6→7 | 1,680 | 2x Wool, 2x Merino Wool | 0.087 | 0.348 | x3 NutriBarley (60xp) | 0.087 | x3 NutriBarley (60xp) | 0.087 |
+| 7→8 | 2,040 | 3x Wool, 2x Merino Wool | 0.087 | 0.435 | x3 NutriBarley (60xp) | 0.087 | x3 NutriBarley (60xp) | 0.087 |
+| 8→9 | 2,400 | 3x Wool, 2x Merino Wool | 0.087 | 0.522 | x3 NutriBarley (60xp) | 0.087 | x3 NutriBarley (60xp) | 0.087 |
+| 9→10 | 2,880 | 3x Wool, 3x Merino Wool | 0.087 | 0.609 | x3 NutriBarley (60xp) | 0.087 | x3 NutriBarley (60xp) | 0.087 |
+| 10→11 | 3,360 | 3x Wool, 3x Merino Wool | 0.187 | 0.843 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
+| 11→12 | 3,840 | 3x Wool, 3x Merino Wool | 0.187 | 1.029 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
+| 12→13 | 4,320 | 3x Wool, 3x Merino Wool | 0.187 | 1.215 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
+| 13→14 | 4,800 | 3x Wool, 3x Merino Wool | 0.187 | 1.401 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
+| 14→15 | 5,440 | 4x Wool, 4x Merino Wool | 0.288 | 1.728 | x3 Mixed Grain (80xp) | 0.187 | x3 Mixed Grain (80xp) | 0.187 |
 
 **Tổng chi phí P2P từ Lv0→15:** ~2.53 SFL (preferred) | ~1.49 SFL (cheapest)
 
@@ -156,7 +154,6 @@ Cả hai đều có thể trade trên marketplace.
 ---
 
 **See also:**
-- [[Animals/|Animals (overview)]]
 - [[chicken|Chicken]]
 - [[cow|Cow]]
 - [[crafting|Crafting — Dolls]]

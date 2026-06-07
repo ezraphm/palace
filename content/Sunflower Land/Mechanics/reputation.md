@@ -73,9 +73,9 @@ Tại một số "cột mốc" điểm reputation nhất định, bạn sẽ có
 2. Nhấp vào **"nút reputation"**
 3. Nhấp vào **"Earn Points"** trong tab trên cùng để xem điểm của bạn và những gì bạn cần làm để kiếm thêm
 
-![[IMG-wiki-reputation-profile-icon.jpg]]
-![[wiki-reputation-button.png]]
-![[IMG-wiki-reputation-earn-points.jpg]]
+![wiki-reputation-profile-icon.jpg](../Attachments/wiki-reputation-profile-icon.jpg)
+![wiki-reputation-button.jpg](../Attachments/wiki-reputation-button.jpg)
+![wiki-reputation-earn-points.jpg](../Attachments/wiki-reputation-earn-points.jpg)
 
 ## Hướng dẫn xác minh Telegram (Telegram Verification)
 

@@ -7,10 +7,10 @@ Usage:
 
 What it does:
   1. Removes ALL symlinks in content/Sunflower Land/
-  2. Copies only notes with `publish: true` from vault
-  3. Preserves directory structure (without vault numeric prefixes)
-  4. Handles index.md at Sunflower Land/ root
-  5. Copies Attachments referenced by published notes
+  2. Copies only notes with `publish: true` from vault, preserving directory structure
+  3. Single Attachments/ folder at Sunflower Land/ root for all images
+  4. Images referenced by notes are copied to Sunflower Land/Attachments/
+  5. Handles index.md at Sunflower Land/ root
 """
 
 import os
@@ -25,10 +25,13 @@ VAULT = Path(os.path.expanduser(
 CONTENT = Path(os.path.expanduser("~/Developer/palace/content"))
 SFL_VAULT = VAULT / "05. Resources/01. Sunflower Land"
 SFL_CONTENT = CONTENT / "Sunflower Land"
+VAULT_ATTACHMENTS = VAULT / "07. Archives/Attachments"
+SFL_ATTACHMENTS = SFL_CONTENT / "Attachments"
 
 PUBLISHED_COUNT = 0
 SYMLINKS_REMOVED = 0
 FILES_COPIED = 0
+IMAGES_COPIED = 0
 
 def has_publish_true(filepath: Path) -> bool:
     """Check if a .md file has 'publish: true' in its frontmatter."""
@@ -57,18 +60,85 @@ def remove_symlinks(directory: Path):
             SYMLINKS_REMOVED += 1
             print(f"  🗑️ Removed symlink: {item.relative_to(CONTENT)}")
         elif item.is_dir():
-            # Don't recurse into Attachments or .git
-            if item.name not in ('.git', '.DS_Store'):
+            if item.name != '.git':
                 remove_symlinks(item)
+
+
+def extract_image_refs(content: str) -> list[str]:
+    """Extract image references from markdown content.
+    Handles wikilink syntax ![[]] (used in vault).
+    Returns list of unique image filenames (basename only)."""
+    images = []
+    # Wikilink syntax: ![[image.png]]
+    wikilinks = re.findall(r'!\[\[([^\]]+\.(?:png|jpg|jpeg|gif|webp))\]\]', content, re.IGNORECASE)
+    images.extend(wikilinks)
+    # Markdown syntax (already converted): ![alt](../Attachments/image.png)
+    markdown_refs = re.findall(r'!\[[^\]]*\]\(([^)]+\.(?:png|jpg|jpeg|gif|webp))\)', content, re.IGNORECASE)
+    for ref in markdown_refs:
+        images.append(Path(ref).name)
+    return list(set(images))  # deduplicate
+
+
+def convert_wikilinks_to_markdown(content: str, depth: int = 0) -> str:
+    """Convert Obsidian wikilink image syntax to markdown relative paths.
+    
+    Args:
+        content: Markdown content
+        depth: Depth of the note file from Sunflower Land root
+               (0 = root, 1 = Mechanics/, 2 = Mechanics/Sub/, etc.)
+    
+    Returns:
+        Content with wikilinks converted to ![alt](../Attachments/image.png) etc.
+    """
+    # Determine prefix for relative path
+    prefix = '../' * max(1, depth)  # at least one level up to reach root Attachments
+    
+    def replace_wikilink(match):
+        img_name = match.group(1)
+        # Remove any path prefix, keep only filename
+        img_name = Path(img_name).name
+        return f'![{img_name}]({prefix}Attachments/{img_name})'
+    
+    # Replace ![[image.png]] with markdown relative path
+    converted = re.sub(r'!\[\[([^\]]+\.(?:png|jpg|jpeg|gif|webp))\]\]', replace_wikilink, content, flags=re.IGNORECASE)
+    return converted
+
+
+def find_image_in_vault(image_name: str) -> Path | None:
+    """Search for image in vault Attachments directory (including subdirs)."""
+    src = VAULT_ATTACHMENTS / image_name
+    if src.exists():
+        return src
+    # Search subdirectories
+    for subdir in VAULT_ATTACHMENTS.iterdir():
+        if subdir.is_dir():
+            src = subdir / image_name
+            if src.exists():
+                return src
+    return None
+
+
+def copy_image_to_sfl_attachments(image_name: str) -> bool:
+    """Copy image from vault Attachments to SFL_CONTENT/Attachments/."""
+    global IMAGES_COPIED
+    
+    src = find_image_in_vault(image_name)
+    if not src:
+        print(f"  ⚠️ Image not found in vault: {image_name}")
+        return False
+    
+    # Destination: single root Attachments folder
+    SFL_ATTACHMENTS.mkdir(parents=True, exist_ok=True)
+    dest = SFL_ATTACHMENTS / image_name
+    
+    shutil.copy2(src, dest)
+    IMAGES_COPIED += 1
+    return True
 
 
 def copy_published_notes():
     """Copy notes with publish: true from vault to content, preserving structure."""
     global FILES_COPIED
-    
-    # Walk the vault SFL directory
-    vault_path_str = str(SFL_VAULT)
-    content_path_str = str(SFL_CONTENT)
     
     for root, dirs, files in os.walk(SFL_VAULT):
         # Skip unpublished directories
@@ -91,12 +161,28 @@ def copy_published_notes():
             rel_path = vault_file.relative_to(SFL_VAULT)
             dest_file = SFL_CONTENT / rel_path
             
+            # Calculate depth: number of path components from SFL root
+            # e.g., "Mechanics/reputation.md" -> depth=1, "Beginners/foo.md" -> depth=1
+            # "Sunflower-Land-MOC.md" -> depth=0
+            depth = len(rel_path.parts) - 1
+            
             # Create parent directories
             dest_file.parent.mkdir(parents=True, exist_ok=True)
             
-            # Copy the file
-            shutil.copy2(vault_file, dest_file)
+            # Read content and extract image references (from original wikilinks)
+            content = vault_file.read_text(encoding='utf-8')
+            image_refs = extract_image_refs(content)
+            
+            # Convert wikilinks to markdown relative paths for publishing
+            converted_content = convert_wikilinks_to_markdown(content, depth)
+            
+            # Write converted content
+            dest_file.write_text(converted_content, encoding='utf-8')
             FILES_COPIED += 1
+            
+            # Copy referenced images to SFL_CONTENT/Attachments/
+            for img in image_refs:
+                copy_image_to_sfl_attachments(img)
             
             # Show first few to avoid spam
             if FILES_COPIED <= 5 or FILES_COPIED % 20 == 0:
@@ -131,7 +217,7 @@ def main():
     print(f"\n[3/4] Cleaning existing files in content (keeping Attachments)...")
     if SFL_CONTENT.exists():
         for item in SFL_CONTENT.iterdir():
-            if item.name == 'Attachments' or item.name == '.DS_Store':
+            if item.name == '.DS_Store':
                 continue
             if item.name == 'index.md':
                 # Keep the SFL index if it exists (it's standalone)
@@ -143,7 +229,7 @@ def main():
                 item.unlink()
                 print(f"  🗑️ Removed file: {item.relative_to(CONTENT)}")
     
-    # Step 4: Copy published notes
+    # Step 4: Copy published notes (and their images)
     print(f"\n[4/4] Copying published notes from vault...")
     copy_published_notes()
     
@@ -152,6 +238,7 @@ def main():
     print("SYNC COMPLETE")
     print(f"  Published notes in vault: {PUBLISHED_COUNT}")
     print(f"  Files copied to content/: {FILES_COPIED}")
+    print(f"  Images copied: {IMAGES_COPIED}")
     print(f"  Symlinks removed: {SYMLINKS_REMOVED}")
     print(f"  Content size: {sum(f.stat().st_size for f in SFL_CONTENT.rglob('*.md') if f.is_file()) / 1024:.0f} KB")
     print(f"{'=' * 60}")

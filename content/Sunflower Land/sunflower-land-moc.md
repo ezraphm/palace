@@ -9,8 +9,8 @@ type: moc
 ---
 
 > Nguồn: [Sunflower Land Wiki](https://wiki.sfl.world/en/home) (dump ngày 2026-05-30)
-> Cập nhật dev streams Jan→Apr 2026
-> 132 notes, 16 thư mục + 5 notes mới — *giữ thuật ngữ game bản gốc*
+> Cập nhật dev streams Jan→Jun 2026
+> 133 notes, 16 thư mục + 5 notes mới — *giữ thuật ngữ game bản gốc*
 
 ---
 
@@ -158,12 +158,12 @@ Trồng cây → Thu hoạch → Nấu ăn → Ăn (gain XP) → Level up
 ### Theo hệ thống game
 | Hệ thống | Notes | Ghi chú |
 |----------|-------|---------|
-| **Cây trồng & Thu hoạch** | [[harvesting]] · [[seasons-weather]] | Core loop |
+| **Cây trồng & Thu hoạch** | [[harvesting]] · [[seasons-weather]] · [[exotic-crops]] | Core loop + exotics |
 | **Nấu ăn** | [[cooking]] | XP source chính |
 | **Khai thác** | [[mining]] · [[sunstones-infernos]] | Stone, Iron, Gold, Sunstone |
 | **Câu cá** | [[fishing]] | Crustaceans, rare fish |
 | **Đào** | [[digging]] | Artifacts, fossils |
-| **Crafting** | [[crafting]] | Tools, machines, buildings |
+|| **Crafting** | [[crafting]] · [[buildings]] | Tools, machines, buildings |
 | **Animals** | [[animals]] | Chicken, Cow, Sheep |
 | **Flowers** | [[flowers-gifts]] | Beehives, honey, gifts |
 | **Deliveries** | [[deliveries]] | Coins + FLOWER + Tickets |
@@ -240,3 +240,7 @@ Trồng cây → Thu hoạch → Nấu ăn → Ăn (gain XP) → Level up
 - [[sft-details]] · [[rarecrows]]
 - [[project-2]] · [[project-ii-details]]
 - [[team]] · [[links]] · [[stock-limits]] · [[beginner-sft-pack]]
+
+## 🔧 Developer Reference
+
+- [[sfl-codebase-map]] — Bản đồ cấu trúc source code: data files, events, logic, API, contracts
